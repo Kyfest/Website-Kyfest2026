@@ -42,9 +42,9 @@ const SITE = {
     description: "Silakan ubah tanggal berikut sesuai jadwal resmi KYFEST 2026.",
     items: [
       { date: "25 SEP 2026", title: "Pendaftaran Dibuka", description: "Pendaftaran peserta dan pengumpulan data kompetisi." },
-      { date: "25 OCT 2026", title: "Technical Meeting", description: "Penjelasan teknis, mekanisme, dan ketentuan perlombaan." },
-      { date: "01 NOV 2026", title: "Competition Day", description: "Pelaksanaan rangkaian kompetisi KYFEST." },
-      { date: "12 NOV 2026", title: "Grand Finale", description: "Pengumuman pemenang dan penutupan festival." }
+      { date: "07 NOV 2026", title: "Technical Meeting", description: "Penjelasan teknis, mekanisme, dan ketentuan perlombaan." },
+      { date: "12 NOV 2026", title: "Competition Day", description: "Pelaksanaan rangkaian kompetisi KYFEST." },
+      { date: "14 NOV 2026", title: "Grand Finale", description: "Pengumuman pemenang dan penutupan festival." }
     ]
   },
   prize: {
