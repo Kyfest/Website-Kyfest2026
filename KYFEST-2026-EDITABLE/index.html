@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kahf Youth Festival 2026">
+  <title>KYFEST 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="nav">
+    <a class="brand" href="#top"><img src="images/logo.png" alt="KYFEST Logo"><span id="navBrand"></span></a>
+    <div class="navlinks"><a href="#about">About</a><a href="#competition">Competition</a><a href="#timeline">Jadwal</a><a href="#faq">FAQ</a></div>
+    <a class="navbtn" id="navRegister">REGISTER</a>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg"></div><div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="eyebrow" id="heroEyebrow"></div>
+        <h1><span id="heroTitleTop"></span><span id="heroTitleMain"></span><span id="heroTitleBottom"></span></h1>
+        <p id="heroDescription"></p>
+        <a class="btn primary" id="heroButton"></a>
+      </div>
+      <div class="scroll">SCROLL ↓</div>
+    </section>
+
+    <section class="space" id="about"><div class="container">
+      <div class="section-head reveal"><div><div class="kicker" id="aboutKicker"></div><h2 id="aboutTitle"></h2></div><p id="aboutDescription"></p></div>
+      <div class="quote reveal" id="aboutHighlight"></div>
+    </div></section>
+
+    <section class="space" id="competition"><div class="container">
+      <div class="section-head reveal"><div><div class="kicker" id="competitionKicker"></div><h2 id="competitionTitle"></h2></div><p id="competitionDescription"></p></div>
+      <div class="comps" id="competitionList"></div>
+    </div></section>
+
+    <section class="space" id="timeline"><div class="container">
+      <div class="section-head reveal"><div><div class="kicker" id="timelineKicker"></div><h2 id="timelineTitle"></h2></div><p id="timelineDescription"></p></div>
+      <div class="timeline" id="timelineList"></div>
+    </div></section>
+
+    <section class="space"><div class="container"><div class="prize-box reveal"><div class="kicker" id="prizeKicker"></div><div class="amount" id="prizeAmount"></div><p id="prizeDescription"></p></div></div></section>
+
+    <section class="space" id="faq"><div class="container">
+      <div class="section-head reveal"><div><div class="kicker" id="faqKicker"></div><h2 id="faqTitle"></h2></div></div>
+      <div class="faq reveal" id="faqList"></div>
+    </div></section>
+
+    <section class="space cta" id="register"><div class="container reveal">
+      <img class="logo-large" src="images/logo.png" alt="KYFEST Logo">
+      <div class="kicker" id="registerKicker"></div><h2 id="registerTitle"></h2><p id="registerDescription"></p>
+      <a class="btn primary" id="registerButton"></a>
+    </div></section>
+  </main>
+
+  <footer><div><span id="footerCopyright"></span><span id="footerSchool"></span></div></footer>
+  <script src="content.js"></script><script src="script.js"></script>
+</body>
+</html>
